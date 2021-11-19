@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Bouncing balls</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="colorbuttons">
+      <h1>bouncing balls</h1>
+    <button onclick="changeColor(0)" id="rainbow">regnbåge</button>
+    <button onclick="changeColor(1)" id="gray">grå</button>
+    <button onclick="changeColor(2)" id="red">röd</button>
+    <button onclick="changeColor(3)" id="yellow">gul</button>
+    <button onclick="changeColor(4)" id="green">grön</button>
+    <button onclick="changeColor(5)" id="blue">blå</button>
+    <button onclick="changeColor(6)" id="purple">lila</button>
+  </div>
+  <div class="select">
+    <label for="amountOfBalls">Antal bollar</label>
+    <input type="number" id="amountOfBalls">
+    <button onclick="quantity()">välj</button><br>
+    <button onclick="rain()">regn</button>
+    <button id="onoff" onclick="onoff()">pausa</button><br>
+  </div>
+  
+    
+    
+    <canvas></canvas>
+
+    <script src="main.js"></script>
+    <!-- // let grey = (' + r + ', ' + r + ', ' + r +');
+    // let red = (' + 255 + ', ' + random(0, 130) + ', ' + 0 +');
+    // let yellow = (' + random(190, 255) + ', ' + random(190, 255) + ', ' + 0 +');
+    // let green = (' + random(0,190) + ', ' + 255 + ', ' + random(0,130) +');
+    // let blue = (' + random(0, 130) + ', ' + r + ', ' + 255 +');
+    // let purple = (' + random(130, 255) + ', ' + 0 + ', ' + random(130,) +'); -->
+  </body>
+</html>
