@@ -1,5 +1,6 @@
 html, body {
   margin: 0;
+  background-color: black;
 }
 
 html {
@@ -24,10 +25,6 @@ h1 {
   text-shadow: 0 0 4px white;
 }
 
-.colorbuttons {
-  margin-top:
-}
-
 .select {
-  
+  color: white;
 }
